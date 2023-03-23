@@ -1,5 +1,5 @@
 <script>
-const form = document.querySelector('form');
+const form = document.querySelector('form'); // cambiar 'form' por el nombre del formulario adecuado 
 
 form.addEventListener('submit', async (event) => {
   event.preventDefault(); // prevent the form from submitting
