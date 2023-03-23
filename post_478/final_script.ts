@@ -21,11 +21,11 @@ export default {
           email: 'yyyyyyyy@zzzzzzzz.com',
           name: name,
         },
-        subject: 'Solicitud de contacto recibida a traves del sitio',
+        subject: 'Contact request received through the site',
         content: [
           {
             type: 'text/plain',
-            value: 'Se ha recibido el sigiuiente mensaje a traves del sitio: \n\n' + textarea + '.\n\nDe parte de: ' + name +'.\n'+ email + '.\n\n\n\n' + today +'.',
+            value: 'The following message has been received through the site: \n\n' + textarea + '.\n\nFrom: ' + name +'.\n'+ email + '.\n\n\n\n ' + today +'.',
           },
         ],
       }),
