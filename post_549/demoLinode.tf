@@ -1,3 +1,4 @@
+# Configure the Linode Provider
 terraform {
   required_providers {
     linode = {
@@ -7,12 +8,11 @@ terraform {
   }
 }
 
-# Configure the Linode Provider
 provider "linode" {
   token = var.token
 }
 
-# Linode
+# Linode Instances
 resource "linode_instance" "srv1_example_instance" {
   label          = "srv1_example_instance"
   tags           = ["demoLinode"]
