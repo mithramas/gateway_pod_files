@@ -64,6 +64,7 @@ resource "linode_nodebalancer" "demoLinode_LoadBalancer" {
   tags   = ["demoLinode"]
 }
 
+# Linode Node Balancer
 resource "linode_nodebalancer_config" "demoLinode_LoadBalancer-config" {
   nodebalancer_id = linode_nodebalancer.demoLinode_LoadBalancer.id
   port            = 80
